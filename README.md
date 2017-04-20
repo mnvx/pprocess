@@ -1,3 +1,5 @@
+Master Status: [![Build Status](https://travis-ci.org/mnvx/pprocess.png?branch=master)](https://travis-ci.org/mnvx/pprocess)
+
 PProcess
 ========
 
