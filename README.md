@@ -1,7 +1,7 @@
-Master Status: [![Build Status](https://travis-ci.org/mnvx/pprocess.png?branch=master)](https://travis-ci.org/mnvx/pprocess)
-
 PProcess
 ========
+[![Build Status](https://travis-ci.org/mnvx/pprocess.png?branch=master)](https://travis-ci.org/mnvx/pprocess)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 Execution of processes in async mode for tests.
 
