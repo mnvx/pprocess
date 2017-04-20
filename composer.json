@@ -1,0 +1,21 @@
+{
+    "name": "mnvx/pprocess",
+    "description": "Testing of async processes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mnv",
+            "email": "mnvx@yandex.ru"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "symfony/process": "^3.0|^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mnvx\\PProcess\\": "src/"
+        }
+    }
+}

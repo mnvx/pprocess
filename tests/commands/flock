@@ -1,0 +1,3 @@
+#!/bin/bash
+
+flock -w 0 -x pprocess.lock -c "sleep 0.1 && echo ok" || exit 1
