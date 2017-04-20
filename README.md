@@ -56,7 +56,7 @@ Installation
 Using composer:
 
 ```bash
-composer require --dev mnvx/pprocess
+composer require mnvx/pprocess --dev
 ```
 
 License
