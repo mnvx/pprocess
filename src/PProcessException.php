@@ -2,7 +2,7 @@
 
 namespace Mnvx\PProcess;
 
-use PHPUnit\Framework\Exception;
+use PHPUnit_Framework_Exception as Exception;
 
 class PProcessException extends Exception
 {

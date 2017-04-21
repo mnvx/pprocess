@@ -2,7 +2,7 @@
 
 namespace Mnvx\PProcess\Constraint;
 
-use PHPUnit\Framework\Constraint\Constraint;
+use PHPUnit_Framework_Constraint as Constraint;
 
 abstract class AbstractAsyncConstraint extends Constraint
 {
