@@ -2,7 +2,7 @@ PProcess
 ========
 [![Build Status](https://travis-ci.org/mnvx/pprocess.png?branch=master)](https://travis-ci.org/mnvx/pprocess)
 [![Latest Stable Version](https://img.shields.io/packagist/v/mnvx/pprocess.svg?style=flat-square)](https://packagist.org/packages/mnvx/pprocess)
-[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.3.9-8892BF.svg?style=flat-square)](https://php.net/)
+[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%205.5-8892BF.svg?style=flat-square)](https://php.net/)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 Execution of processes in async mode for tests.
