@@ -1,6 +1,6 @@
 <?php
 
-use PHPUnit\Framework\TestCase;
+use PHPUnit_Framework_TestCase as TestCase;
 use Mnvx\PProcess\Command\Command;
 use Mnvx\PProcess\AsyncTrait;
 use Mnvx\PProcess\Command\CommandSet;
