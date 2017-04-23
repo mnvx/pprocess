@@ -74,10 +74,7 @@ results=()
 # Expected results of background processes (zeros)
 expects=()
 
-# Output of every background process
-outputs=()
-
-# Run processes in bacground and redirect output into stderr
+# Run processes in background and redirect output into stderr
 if [ "$STDIN" == "YES" ]
 then
   while read COMMAND
@@ -105,7 +102,7 @@ done
 
 printf '\n'>&2
 
-# Prepare results for comparision
+# Prepare results for comparison
 result=`( IFS=$', '; echo "${results[*]}" )`
 expect=`( IFS=$', '; echo "${expects[*]}" )`
 
