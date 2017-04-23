@@ -28,7 +28,7 @@ class CommandSet
      * @param string $path Path where commands will be run
      * @param int|null $count How many times to run commands
      */
-    public function __construct(/*array*/ $commands, /*string*/ $path = null, /*int*/ $count = null)
+    public function __construct(array $commands, string $path = null, int $count = null)
     {
         $this->commands = $commands;
         $this->path = $path;

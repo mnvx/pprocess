@@ -28,7 +28,7 @@ class Command
      * @param string $path Path where command will be run
      * @param int|null $count How many times to run the command
      */
-    public function __construct(/*string*/ $command, /*string*/ $path = null, /*int*/ $count = null)
+    public function __construct(string $command, string $path = null, int $count = null)
     {
         $this->command = $command;
         $this->path = $path;
