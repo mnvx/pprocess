@@ -25,7 +25,7 @@ class AsyncCommand extends AbstractAsyncConstraint
             throw new PProcessException('Argument for matching must me instance of \\PProcess\\Command');
         }
 
-        $commandParam = $other->getCommand() ? '--command="' . $other->getCommand() . '"' : '';
+        $commandParam = $other->getCommand() ? '--command="' . str_replace('"', '\\"', $other->getCommand()) . '"' : '';
         $countParam = $other->getCount() ? '--processes=' . $other->getCount() : '';
 
         $command = sprintf('%s %s %s', $this->getPProcessPath(), $commandParam, $countParam);
